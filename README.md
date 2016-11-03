@@ -8,3 +8,6 @@ exec .py - It exccutes mesaforte-be
 
 
 run.py - It builds , both containers up nad execute mesaforte-be in a bunch
+chpath.py - It changes the path 
+chdir2.py - It changes from one directory to another directory
+sleep.py & popentime1_subprocess.py - In sleep.py it says hello after sumtime and this hello is called in popenitme1 and                                             stored in a variable called  output. and says Hello.
