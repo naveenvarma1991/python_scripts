@@ -1,10 +1,10 @@
 #!/usr/bin/python
 
 import re
-
+password = True
 special_str = "[$#@]"
 value = []
-items =[x for x in raw_input().split(',')]
+items = raw_input("Enter Valid Inputs With Comma : ").split(',')
 for p in items:
     if len(p)<6 or len(p)>12:
         continue
@@ -22,11 +22,11 @@ for p in items:
         break
       
     else:
-        print("Valid Password")
-        x=False
+        print("Valid Password", p)
+        p=False
         break
 
-if x:
-    print("Not a Valid Password")
+if p:
+    print("Not a Valid Password" , p)
   
  
